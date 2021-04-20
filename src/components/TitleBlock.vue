@@ -1,13 +1,13 @@
 <template>
-    <table width="600" border="0" cellspacing="0" cellpadding="0" style="padding: 15px 15px 0">
+    <table width="600" border="0" cellspacing="0" cellpadding="0" style="padding: 20px 20px 0">
         <tr bgcolor="#ffffff">
-            <td style="text-align: center; font-size: 24px; padding: 30px 0" colspan="2">
+            <td style="text-align: center; font-size: 24px; padding: 30px 0; font-weight: 600;" colspan="2">
                 {{ month }} {{ year }} - Product Update
             </td>
         </tr>
         <tr>
             <td>
-                <img style="width: 100%" src="../assets/background.png" />
+                <img style="width: 100%;" src="../assets/background.png" />
             </td>
         </tr>
     </table>
