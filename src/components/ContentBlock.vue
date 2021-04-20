@@ -6,36 +6,37 @@
         border="0"
         cellspacing="0"
         cellpadding="0"
-        style="padding: 15px 15px 0"
+        style="padding: 25px 25px 0"
     >
         <!-- title -->
         <tr bgcolor="#ffffff">
-            <td style="padding: 15px 15px 0; color: #4285f4; font-weight: 900; font-size: 18px">
+            <td style="padding: 30px 0 0 30px; color: #4285f4; font-weight: 900; font-size: 18px">
                 {{ product.title }}
             </td>
         </tr>
         <!-- sub title -->
-        <tr bgcolor="#ffffff">
-            <td style="padding: 15px 15px 0;">
-                <table v-for="subBlock in product.subBlocks" :key="subBlock.id">
+        <tr bgcolor="#ffffff" v-for="subBlock in product.subBlocks" :key="subBlock.id">
+            <td style="padding: 20px 20px 0 28px; font-size: 17px">
+                <table>
                     <tr>
                         <td style="font-weight: 900">{{ subBlock.subtitle }}</td>
                     </tr>
                     <tr>
-                        <td style="font-size: 16px">{{ subBlock.content }}</td>
+                        <td style="font-size: 16px; padding: 10px 0 0;">{{ subBlock.content }}</td>
                     </tr>
                     <!-- button -->
                     <tr bgcolor="#ffffff" align="center">
-                        <td style="padding: 15px">
+                        <td style="padding: 30px">
                             <button
                                 style="
-                            width: 140px;
+                            width: 170px;
                             height: 40px;
                             background-color: #4285f4;
                             color: #ffffff;
                             border-radius: 5px;
                             border: 0;
                             font-weight: 900;
+                            font-size: 17px;
                         "
                             >
                                 LEARN MORE

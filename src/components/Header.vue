@@ -17,7 +17,7 @@
                 class="ds_logo"
                 align="right"
                 style="
-                        height: 40px;
+                        height: 50px;
                         padding: 30px 20px 10px 50px;
                     "
             >
